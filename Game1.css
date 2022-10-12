@@ -34,8 +34,28 @@ body{
     flex-direction: row;
     flex: 0.2;
     background-color: yellow;
-    
 }
+
+.side-a{
+    display: flex;
+    flex-direction: column;
+    flex: 0.5;
+}
+.side-b{
+    display: flex;
+    flex-direction: column;
+    flex: 0.5;
+}
+
+.side-a h1{
+    font-size: 45px;
+    margin: auto auto auto auto;
+}
+.side-b h2{
+    font-size: 45px;
+    margin: auto auto auto auto;
+}
+
 .down{
     display: flex;
     flex-direction: column;
@@ -54,7 +74,7 @@ body{
     color: white;
 }
 
-.top button{
+.button1{
     height: 35px;
     width: 130px;
     align-self: center;
@@ -65,7 +85,7 @@ body{
     color: green;
     
 }
-.down button{
+.button2{
     height: 35px;
     width: 130px;
     margin-left: auto;
@@ -75,5 +95,9 @@ body{
     border: none;
     background-color: black;
     color: red;
+}
+
+p{
+    margin: auto auto auto auto;
 }
 
