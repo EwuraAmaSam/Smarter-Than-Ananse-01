@@ -39,11 +39,13 @@ function addYou(){
     h2.textContent = value2;
 
     if (value2 > 300){
-        alert("Ananse has won🕷. Refresh the browser to play again.")
+        alert("Ananse has won🕷. Better luck next time")
+        location.reload()
     }
-
+    
     if (value1 > 300){
-        alert("You won🎉. Refresh the browser to play again.")
+        alert("You won🎉. You won. You are smarter than Ananse.")
+        location.reload()
     }
 }
 
