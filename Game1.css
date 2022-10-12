@@ -1,0 +1,79 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+body{
+    display: flex;
+    height: 100vh;
+    margin: 0px, auto;
+    /* background-color: black; */
+}
+
+.container{
+    height: 350px;
+    width: 350px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    margin-left: auto;
+    margin-top: auto;
+    margin-right: auto;
+    margin-bottom: auto;
+}
+
+.top{
+    display: flex;
+    flex-direction: column;
+    flex: 0.4;
+    background-color: red;
+
+}
+.middle{
+    display: flex;
+    flex-direction: row;
+    flex: 0.2;
+    background-color: yellow;
+    
+}
+.down{
+    display: flex;
+    flex-direction: column;
+    flex: 0.4;
+    background-color: green;
+}
+
+.top h3{
+    align-self: center;
+    margin-top: 45px;
+    color: white;
+}
+.down h3{
+    align-self: center;
+    margin-top: 15px;
+    color: white;
+}
+
+.top button{
+    height: 35px;
+    width: 130px;
+    align-self: center;
+    margin-top: 10px;
+    border-radius: 10px;
+    border: none;
+    background-color: black;
+    color: green;
+    
+}
+.down button{
+    height: 35px;
+    width: 130px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 25px;
+    border-radius: 10px;
+    border: none;
+    background-color: black;
+    color: red;
+}
+
