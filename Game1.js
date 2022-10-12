@@ -44,7 +44,7 @@ function addYou(){
     }
     
     if (value1 > 300){
-        alert("You won🎉. You won. You are smarter than Ananse.")
+        alert("You won🎉. You are smarter than Ananse.")
         location.reload()
     }
 }
